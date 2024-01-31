@@ -18,13 +18,10 @@ struct SearchView: View {
                 Section {
                     VStack {
                         HStack {
-                            Button {
-                            } label: {
-                                Image(systemName: "lessthan")
-                                    .font(.system(size: 18))
-                                    .font(.headline)
-                                    .foregroundColor(.primary)
-                            }
+                            Image(systemName: "chevron.left")
+                                .font(.system(size: 18))
+                                .font(.headline)
+                                .foregroundColor(.primary)
                             Spacer()
                             Button {
                                 Task {
@@ -65,6 +62,8 @@ struct SearchView: View {
                             Spacer()
                             Text("27516")
                                 .font(.system(size: 12))
+                            Spacer()
+                            Image(systemName: "chevron.down")
                                 .padding(.trailing)
                             
                         }
