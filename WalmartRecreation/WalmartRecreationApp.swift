@@ -11,7 +11,7 @@ import SwiftUI
 struct WalmartRecreationApp: App {
     var body: some Scene {
         WindowGroup {
-            SearchView()
+            ContentView()
         }
     }
 }
